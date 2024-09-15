@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.hero-section{
+    background-color: #F3FCF7;
+    padding: 40px;
+    width: 1440px;
+    height: 600px;
+    
+}
+
+.hero-section nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foodies{
+    color: #5FD79D;
+}
+
+.nav-lists{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-lists li{
+    margin-right: 2rem;
+}
+
+.nav-lists a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.nav-lists #default-color {
+    color: #5FD79D;
+}
+
+.hero-food h1{
+    font-size: 3rem;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.hero-food p{
+    margin-top: 1rem;
+}
+
+.btn{
+    width: 200px;
+    height: 68px;
+    padding: 5px;
+    color: white;
+    background-color: #06C167;
+    margin-top: 1.3rem;
+    border: none;
+}
+
+.hero-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-img img{
+    margin-top: 3rem;
+}
+
+.brand-logo{
+    background-color: white;
+    width: 59vw;    
+    margin-top: 15rem;
+}
+
+.brand-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hr-section{
+    margin-top: 15rem;
+    text-align: center;
+}
+
+.icons{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 0 10rem;
+}
+
+.cards{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* healthy food sec starts */
+
+.healthy-food, .veggie-food, .food-variety{
+    padding: 10rem;
+}
+
+.food{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lil-head{
+    margin: 2rem 0;
+}
+
+.food-heading{
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.food-details ul{
+    list-style-type: none;
+    margin: 2rem 0;
+}
+
+.food-details ul li{
+    margin: 1rem 0;
+}
+
+.tick-icon{
+    margin-right: .7rem;
+    
+}
+
+/* veggie food starts */
+
+.green-no{
+    color: #06C167;
+    font-size: 1.6rem;
+}
+
+.product-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.pr p{
+    margin: 1rem 0;
+}
+
+/* food variety starts */
+
+.food-card{
+    width: 292.5px;
+    height: 292.5px;
+    background-color: #F3FCF7;
+}
+
+.card-btn{
+    background-color: #E6F9F0;
+    color: #35CD83;
+}
+
+.food-variety{
+    margin: 0 auto;
+    width: 1300px;
+}
+
+.food-variety h1,h6{
+    text-align: center;
+}
+
+.row-one{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.food-card{
+    padding: 2rem;
+}
+
+.food-card h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.food-card h3,p{
+    margin: 1rem 0;
+}
+
+.card-btn{
+    border: none;
+    padding: .3rem;
+    width: 148px;
+    height: 42px;
+    margin-top: 1rem;
+}
+
+.row-two{
+    /* margin: 0 auto; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+/* rectangle section starts */
+
+.rectangle-box{
+    width: 1170px;
+    height: 459px;
+    background-image: url("/images/Rectangle\ 8.png");
+    margin: 0 auto;
+}
+
+.rectangle-box{
+    text-align: center;
+    padding-top: 10rem;
+    color: white;
+}
+
+.rectangle-box h1{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+/* footer starts */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+}
+
+.footer-icons{
+    margin-top: 1rem;
+    margin-right: .7rem;
+}
+
+.footer-head{
+    margin-bottom: 2rem;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+    margin: 1rem 0;
+}
+
+.box ul li a{
+    text-decoration: none;
+
+}
+
+input, #footer-btn{
+    margin-top: 2rem;
+}
+
+#footer-btn{
+    width: 100px;
+    padding: 1rem;
+    background-color: #06C167;
+    color: white;
+    border: none;
+}
+
+input{
+    width: 200px;
+    padding: 1rem;
+    background-color: #F0F1EC;
+    border: none;
+}
+
+.copyright{
+    text-align: center;
+}
